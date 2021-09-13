@@ -1,9 +1,19 @@
 <template>
-  <h2 class="title">第一頁由此開始</h2>
+  <Grid1/>
+  <Grid2/>
+  <Grid3/>
 </template>
 
 <script>
+import Grid1 from '../components/grid1.vue'
+import Grid2 from '../components/grid2.vue'
+import Grid3 from '../components/grid3.vue'
 export default {
+  components: {
+    Grid1,
+    Grid2,
+    Grid3
+  },
   setup () {
     return {
 

@@ -7,7 +7,7 @@
 export default {
   setup () {
     return {
-      title: 'Hello'
+      title: 'Grid css 練習計畫'
     }
   }
 }
@@ -22,5 +22,7 @@ export default {
 .title{
   font-size: 30px;
   line-height: 1.9;
+  background-color: #333;
+  color: #fff;
 }
 </style>
